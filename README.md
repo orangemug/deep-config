@@ -22,7 +22,7 @@ Create some config in the base of your project like so
     ├── production.js
     └── staging.js
 
-It'll use [lodash.defaultsDeep](https://lodash.com/docs#defaultsDeep) to merge the objects
+It'll use [lodash.defaultsDeep](https://lodash.com/docs#defaultsDeep) to merge the objects and `default` will always be included if present. The library will use the `NODE_ENV` defaulting to `development` if not present.
 
 To get the config just require it
 
