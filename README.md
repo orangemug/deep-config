@@ -9,7 +9,7 @@ Deep merged config from your config directory
 ## Install
 To install
 
-   npm i git://github.com/orangemug/deep-config.git --save
+    npm i git://github.com/orangemug/deep-config.git --save
 
 
 ## Usage
