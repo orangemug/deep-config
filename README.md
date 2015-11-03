@@ -1,6 +1,7 @@
 # deep-config
 Deep merged config from your config directory
 
+![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)
 [![circleci](https://circleci.com/gh/orangemug/deep-config.png?style=shield)](https://circleci.com/gh/orangemug/deep-config)
 [![Dependency Status](https://david-dm.org/orangemug/deep-config.svg)](https://david-dm.org/orangemug/deep-config)
 [![Dev Dependency Status](https://david-dm.org/orangemug/deep-config/dev-status.svg)](https://david-dm.org/orangemug/deep-config#info=devDependencies)
