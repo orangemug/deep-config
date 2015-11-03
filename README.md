@@ -1,5 +1,5 @@
 # deep-config
-Deep merged config from your config directory
+A deep merged config from your `./config` directory
 
 ![stability-unstable](https://img.shields.io/badge/stability-unstable-yellow.svg)
 [![circleci](https://circleci.com/gh/orangemug/deep-config.png?style=shield)](https://circleci.com/gh/orangemug/deep-config)
