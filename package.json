@@ -1,6 +1,6 @@
 {
   "name": "deep-config",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "dependencies": {
     "lodash.defaultsdeep": "^3.10.0"
   },
