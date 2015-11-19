@@ -1,5 +1,6 @@
 var assert = require("assert");
 var configFn = require("../lib/deep-config");
+var readmeTester = require("readme-tester");
 
 
 describe("deep-config", function() {
@@ -41,4 +42,11 @@ describe("deep-config", function() {
       }
     });
   });
+
+  it("README should show no errors", function(done) {
+    readmeTester(__dirname+"/../", function(err) {
+      assert.ifError(err);
+      done();
+    });
+  })
 });

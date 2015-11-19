@@ -26,8 +26,14 @@ It'll use [lodash.defaultsDeep](https://lodash.com/docs#defaultsDeep) to merge t
 
 To get the config just require it
 
-    var config = require("deep-config");
+```js
+// This will load the config from your apps './config' directory
+var config = require("deep-config");
 
+assert.equal(config.name, "some-app");
+assert.equal(config.port, 3000);
+assert.equal(config.db.url, "localhost:6789");
+```
 
 ## License
 [MIT](LICENSE)
