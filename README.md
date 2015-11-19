@@ -1,10 +1,15 @@
 # deep-config
 A deep merged config from your `./config` directory
 
-![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)
-[![circleci](https://circleci.com/gh/orangemug/deep-config.png?style=shield)](https://circleci.com/gh/orangemug/deep-config)
-[![Dependency Status](https://david-dm.org/orangemug/deep-config.svg)](https://david-dm.org/orangemug/deep-config)
-[![Dev Dependency Status](https://david-dm.org/orangemug/deep-config/dev-status.svg)](https://david-dm.org/orangemug/deep-config#info=devDependencies)
+[![stability-stable](https://img.shields.io/badge/stability-stable-green.svg)][stability]
+[![circleci](https://circleci.com/gh/orangemug/deep-config.png?style=shield)][circleci]
+[![Dependency Status](https://david-dm.org/orangemug/deep-config.svg)][dm-prod]
+[![Dev Dependency Status](https://david-dm.org/orangemug/deep-config/dev-status.svg)][dm-dev]
+
+[stability]: https://github.com/orangemug/stability-badges#stable 
+[circleci]:  https://circleci.com/gh/orangemug/deep-config
+[dm-prod]:   https://david-dm.org/orangemug/deep-config
+[dm-dev]:    https://david-dm.org/orangemug/deep-config#info=devDependencies
 
 
 ## Install
