@@ -30,9 +30,13 @@ To get the config just require it
 // This will load the config from your apps './config' directory
 var config = require("deep-config");
 
-assert.equal(config.name, "some-app");
-assert.equal(config.port, 3000);
-assert.equal(config.db.url, "localhost:6789");
+assert.deepEqual(config, {
+  name: "some-app",
+  port: 3000,
+  db: {
+    url: "localhost:6789"
+  }
+});
 ```
 
 ## License
